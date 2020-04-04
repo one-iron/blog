@@ -1,11 +1,11 @@
 ---
-title: 🏃‍♂️TIL-200324
+title: 🏃‍♂️TIL200324(위코드레플잇css,js)
 date: 2020-3-24 22:00:00
 category: 'TIL'
 draft: false
 ---
 
-# 🏃‍♂️TIL-200324
+
 
 ### Media Query
 
