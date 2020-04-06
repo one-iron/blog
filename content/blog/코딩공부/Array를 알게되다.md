@@ -1,5 +1,5 @@
 ---
-title: 'Array를 알게되다.'
+title: '🗄 Array를 알게되다.'
 date: 2020-4-6 17:00:00
 category: '코딩공부'
 draft: false
