@@ -1,5 +1,5 @@
 ---
-title: '❄️ React를 알게 되다.03'
+title: '❄️ 리액트 알게되다.03-Component'
 date: 2020-4-7 18:00:00
 category: '코딩공부'
 draft: false
