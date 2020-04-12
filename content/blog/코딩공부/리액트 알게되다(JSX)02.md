@@ -1,5 +1,5 @@
 ---
-title: '❄️ React를 알게되다.02 - JSX'
+title: '❄️ React JSX를 알게되다.'
 date: 2020-4-7 17:00:00
 category: '코딩공부'
 draft: false
