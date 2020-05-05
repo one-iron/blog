@@ -19,7 +19,6 @@
     justify-content: space-between;
     align-items: center;
     h3 {
-      transition: color 1s;
       text-shadow: none;
     }
     .dataBox {
@@ -41,12 +40,12 @@
     .titleBox {
       h3 {
         animation-name: colorChange;
-        animation-duration: 1.5s;
+        animation-duration: 1s;
         animation-fill-mode: forwards;
       }
       @keyframes colorChange {
-        50% {
-          color: #7eeeb8;
+        20% {
+          color: #66c495;
         }
         100% {
           color: #34dbde;
