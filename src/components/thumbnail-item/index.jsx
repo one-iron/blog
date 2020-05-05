@@ -28,8 +28,8 @@ export const ThumbnailItem = ({ node }) => {
         <div className="titleBox">
           <h3>{node.frontmatter.title || node.fields.slug}</h3>
           <div className="dataBox">
-            <h3>{node.frontmatter.category}</h3>
-            <h3>{`${year}년${monthChange[month]}${day}일`}</h3>
+            <h4>{node.frontmatter.category}</h4>
+            <h4>{`${year}년${monthChange[month]}${day}일`}</h4>
           </div>
         </div>
         <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
