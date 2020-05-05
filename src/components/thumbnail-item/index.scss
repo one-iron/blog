@@ -45,7 +45,8 @@
 
   &:hover {
     .titleBox {
-      h3 {
+      h3,
+      h4 {
         animation-name: colorChange;
         animation-duration: 1s;
         animation-fill-mode: forwards;
