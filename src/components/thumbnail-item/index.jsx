@@ -25,8 +25,13 @@ export const ThumbnailItem = ({ node }) => {
   return (
     <Link className={`thumbnail ${TARGET_CLASS}`} to={node.fields.slug}>
       <div key={node.fields.slug}>
-        <h3>{node.frontmatter.title || node.fields.slug}</h3>
-        <p>{`${year}년${monthChange[month]}${day}일`}</p>
+        <div className="titleBox">
+          <h3>{node.frontmatter.title || node.fields.slug}</h3>
+          <div className="dataBox">
+            <h3>{node.frontmatter.category}</h3>
+            <h3>{`${year}년${monthChange[month]}${day}일`}</h3>
+          </div>
+        </div>
         <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
       </div>
     </Link>

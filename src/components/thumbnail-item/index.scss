@@ -5,13 +5,54 @@
   margin-bottom: 12px;
   padding: 4px;
   padding-bottom: 12px;
-  box-shadow: none;
-  transition: text-shadow 0.3s, opacity 0.4s;
-  opacity: 0;
+  // box-shadow: none;
+  // transition: text-shadow 0.3s, opacity 0.4s;
+  // opacity: 0;
 
   p {
     font-size: 80%;
     line-height: 1.4;
+  }
+
+  .titleBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      transition: color 1s;
+      text-shadow: none;
+    }
+    .dataBox {
+      display: flex;
+      width: 165px;
+      justify-content: flex-end;
+      align-content: center;
+      padding: 26px 0 13px;
+      h3 {
+        font-size: 12px;
+        text-shadow: none;
+        margin: 0;
+        padding: 0 0 0 13px;
+      }
+    }
+  }
+
+  &:hover {
+    .titleBox {
+      h3 {
+        animation-name: colorChange;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes colorChange {
+        50% {
+          color: #7eeeb8;
+        }
+        100% {
+          color: #34dbde;
+        }
+      }
+    }
   }
 }
 

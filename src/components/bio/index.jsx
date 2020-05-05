@@ -45,6 +45,12 @@ export const Bio = () => (
                       Facebook
                     </a>
                   )}
+                  {/* 내가 수정한 것 */}
+                  {true && (
+                    <a href={`https://www.instagram.com/1iron.dev/`}>
+                      Insatgram
+                    </a>
+                  )}
                 </p>
               </div>
             </div>
