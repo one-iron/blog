@@ -25,7 +25,7 @@ currentValue : 처리할 현재 요소
 
 index (optional) : 처리할 현재 요소의 인덱스
 
-Array (optional) : map()을 호출한 배열
+Array (optional) : filter()를 호출한 배열
 
 thisArg(optional) : callback을 실행할 때 this로 사용되는 값
 
@@ -59,7 +59,7 @@ console.log(result);
 
 
 
-# Map Method에 대한 정리
+# Filter Method에 대한 정리
 
 filter는 이름과 같이 받은 배열에 대해 요소를 걸러내어 true/false를 반환하고, 없으면 빈 배열을 반환한다. 이것 또한, map과 같이 callback함수를 무조건 받게 된다.
 
