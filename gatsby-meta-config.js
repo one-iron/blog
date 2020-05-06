@@ -2,7 +2,7 @@ module.exports = {
   title: `One-Iron`,
   description: `Blog posted about ...`,
   author: `원철`,
-  introduction: `🏃‍♂️ “넘어지면 그냥 일어나지 말고 무언가를 주워라”`,
+  introduction: `🏃‍♂️"넘어지면 그냥 일어나지 말고 무언가를 주워라"  😎 "프엔이라면 알잘딱깔센"`,
   siteUrl: `https://one-iron.netlify.app/`, // Your blog site url
   social: {
     twitter: '', // Your Twitter account
